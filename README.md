@@ -47,7 +47,7 @@ Using the Laptop14 dataset as a running example,
 
 
 ```bash
-python main.py \
+CUDA_VISIBLE_DEVICES=0 python main.py \
   --train_path=MTL_datasets/Lap/Lap_Train.json \
   --test_path=MTL_datasets/Lap/Lap_Test.json \
   --output_dir=results/Lap \
